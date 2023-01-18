@@ -1,0 +1,20 @@
+.icon__container {
+    display: flex;
+    align-items: center;
+}
+
+.icon__container__src {
+    height: 10px;
+    width: 10px;
+    border-radius: 2px;
+}
+
+.icon__container__text {
+    font-size: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 10px;
+    font-weight: 600;
+}

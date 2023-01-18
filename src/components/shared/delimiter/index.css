@@ -1,0 +1,8 @@
+.delimiter {
+    height: 100%;
+    width: 0;
+    border: 1px lightgray solid;
+    position: absolute;
+    right: -10px;
+    top: 0;
+}

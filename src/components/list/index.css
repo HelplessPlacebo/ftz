@@ -1,0 +1,85 @@
+.list__container {
+    display: flex;
+    justify-content: space-around;
+    border: green 1px solid;
+    border-radius: 10px;
+    padding: 20px 10px 20px 10px;
+    box-shadow: 2px -2px 43px 1px rgba(34, 60, 80, 0.2);
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.total__container {
+    position: relative;
+    width: 40%;
+}
+
+.total__container__deal_type__text {
+    color: #a7a7a7;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.total__number {
+    padding-top: 10px;
+    color: green;
+}
+
+.total__category_group {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.total__container__description {
+    color: gray;
+    font-size: 14px;
+}
+
+.total__total_price {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.total__total_price__price {
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.total__total_price__vat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7px;
+    background-color: lightgray;
+    text-align: center;
+    width: 50px;
+    height: 15px;
+    font-size: 10px;
+    color: #5b5b5b;
+}
+
+.location__container {
+    padding-top: 15px;
+}
+
+.list_item__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+    width: 25%;
+}
+
+.list_item__container__block__header {
+    color: #a7a7a7;
+    padding-bottom: 4px;
+}
